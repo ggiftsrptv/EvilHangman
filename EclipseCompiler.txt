@@ -21,3 +21,11 @@ fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.ja
 24 เม.ย. 2560 4:26:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11e4932
 24 เม.ย. 2560 4:26:48 GMT:  Kind = WARNING
 24 เม.ย. 2560 4:26:48 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 26 ColNo = 7 Msg = 'Resource leak: 's' is never closed'
+24 เม.ย. 2560 4:32:37 GMT: diagnostics = javax.tools.DiagnosticCollector@c91274
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10e8e3a
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+24 เม.ย. 2560 4:32:37 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17cea23' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+24 เม.ย. 2560 4:32:38 GMT: Compiler call returned
+24 เม.ย. 2560 4:32:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f43e2a
+24 เม.ย. 2560 4:32:38 GMT:  Kind = WARNING
+24 เม.ย. 2560 4:32:38 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 1 ColNo = 8 Msg = 'The import java.util is never used'

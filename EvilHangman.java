@@ -23,7 +23,7 @@ public class EvilHangman{
   public void setWordFamilies(){
     Scanner s = null;
     try{
-      s = new Scanner(new File("C:\\Users\\USER\\Desktop\\dictionary.txt")); 
+      s = new Scanner(new File("C:\\Users\\USER\\Desktop\\Code\\New folder\\EvilHangmanGroup9\\dictionary.txt")); 
     }catch(Exception e ){
       throw new RuntimeException(e);
     }
@@ -35,6 +35,7 @@ public class EvilHangman{
       i++;
      }
     }
+    s.close();
   }
   public int decreaseGuess(){
     return totalGuessRemaining;
