@@ -1,0 +1,23 @@
+24 เม.ย. 2560 4:03:06 GMT: Log 'EclipseCompiler.txt' opened: 24 เม.ย. 2560 4:03:06 GMT with name C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EclipseCompiler.txt
+24 เม.ย. 2560 4:03:51 GMT: diagnostics = javax.tools.DiagnosticCollector@1d41bdd
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@536313
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+24 เม.ย. 2560 4:03:51 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1759bea' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+24 เม.ย. 2560 4:03:51 GMT: Compiler call returned
+24 เม.ย. 2560 4:03:51 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19422f6
+24 เม.ย. 2560 4:03:51 GMT:  Kind = WARNING
+24 เม.ย. 2560 4:03:51 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 1 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+24 เม.ย. 2560 4:26:48 GMT: diagnostics = javax.tools.DiagnosticCollector@1ff3202
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10efd5b
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+24 เม.ย. 2560 4:26:48 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@154da0d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+24 เม.ย. 2560 4:26:48 GMT: Compiler call returned
+24 เม.ย. 2560 4:26:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b77784
+24 เม.ย. 2560 4:26:48 GMT:  Kind = WARNING
+24 เม.ย. 2560 4:26:48 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 1 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+24 เม.ย. 2560 4:26:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10a1216
+24 เม.ย. 2560 4:26:48 GMT:  Kind = WARNING
+24 เม.ย. 2560 4:26:48 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 1 ColNo = 8 Msg = 'The import java.util is never used'
+24 เม.ย. 2560 4:26:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11e4932
+24 เม.ย. 2560 4:26:48 GMT:  Kind = WARNING
+24 เม.ย. 2560 4:26:48 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 26 ColNo = 7 Msg = 'Resource leak: 's' is never closed'
