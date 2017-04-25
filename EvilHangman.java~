@@ -1,38 +1,70 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.List;
+import javax.swing.text.html.HTML;
+import java.util.Scanner;
+
 public class EvilHangman{
- public int wordLength;
- public int totalGuessRemaining;
- public int correctGuess;
- public int incorrect;
- public boolean foundLetter;
- public ArrayList<String>wordFamilies;
- public ArrayList<String>correctGuess1;
- public ArrayList<String>allGuess;
- public EvilHangman(){
-   
- }
- public void lengthOfWord(){
-   
- }
- public void setWordFamilies(){
-   
- }
- public int decreaseGuess(){
-   return totalGuessRemaining;
- }
- public boolean compareLetter(){
-   return foundLetter;
- }
- public int increaseIncorrectGuess(){
-  return incorrect; 
- }
- public void fillPositionLetter(){
-   
- }
- public int checkNumberBlankPosition(){
-   return wordLength;
- }
- public void updateScreen(){
-   
- }
+  public int wordLength;
+  public int totalGuessRemaining;
+  public int correctGuess;
+  public int incorrect;
+  public boolean foundLetter;
+  public ArrayList<String>wordFamilies;
+  public ArrayList<String>correctGuess1;
+  public ArrayList<String>allGuess;
+  
+  public EvilHangman(){
+  
+  }
+  public void lengthOfWord(int length,int guess){
+    wordLength = length;
+    totalGuessRemaining = guess;
+  }
+  public void setWordFamilies(){
+   String thisLine = null;
+   try{
+        BufferedReader br = new BufferedReader(new FileReader("dictionary.txt"));
+     while((thisLine = br.readLine()) != null ){//add word into array
+       if(thisLine.length() == wordLength){
+        wordFamilies.add(thisLine);
+       }
+     }
+   }
+   catch(Exception e){
+         e.printStackTrace(); 
+   }
+  }
+  public int decreaseGuess(){
+    if(){
+      totalGuessRemaining -= 1;
+    }
+    return totalGuessRemaining;
+  }
+  public boolean compareLetter(){
+    
+    return foundLetter;
+  }
+  public int increaseIncorrectGuess(){
+    if(totalGuessRemaining == incorrect){
+     //game over 
+    }
+    return incorrect; 
+  }
+  public void fillPositionLetter(){
+    
+  }
+  public int checkNumberBlankPosition(){
+    
+    return wordLength;
+  }
+  public void updateScreen(){
+    
+  }
+  public void print(){
+    for(String a : wordFamilies){
+      System.out.println(a); 
+    }
+  }
 }
