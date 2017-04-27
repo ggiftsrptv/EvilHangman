@@ -19,14 +19,16 @@ public class EvilHangman{
   public ArrayList<String>correctGuess;
   public ArrayList<String>allGuess;
   public static int count = 0;
-  public boolean playAgain = true;
+  public static boolean playAgain = true;
     
   public static void main(String[]args){
+    while(playAgain == true){
    EvilHangman a = new EvilHangman();
    a.lengthOfWord();
    a.setWordFamilies();
    a.updateScreen();
    a.againToplay();
+   }
   }
   public EvilHangman(){
    wordLength = 0;
@@ -87,14 +89,12 @@ public class EvilHangman{
     String input = sc.next();
   }
   public int decreaseGuess(){
-    /*if(founLetter == true || foundLetter == false){
-      totalGuessRemaining--;
-    }*/
+    
     return totalGuessRemaining;
   }
   public int increaseIncorrectGuess(){
     if(foundLetter == false){
-     //game over
+     
       incorrect++;
     }
     return incorrect; 
@@ -107,7 +107,7 @@ public class EvilHangman{
     System.out.print(Underscore);
     System.out.println();
   }
-   public boolean againToplay(){
+   public static boolean againToplay(){
    Scanner sc = new Scanner(System.in);
    System.out.print("Do you want to play again (Y/N)?");
    String again = sc.nextLine();
@@ -115,7 +115,8 @@ public class EvilHangman{
    if(again.equals("Y")){
     playAgain = true; 
    }else if(again.equals("N")){
-    playAgain = false; 
+    playAgain = false;
+    System.out.println("Thank for playing ");
    }
    return playAgain;
  }

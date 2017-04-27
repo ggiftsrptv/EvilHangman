@@ -13,20 +13,23 @@ public class EvilHangman{
   public int totalGuessRemaining;
   public int correct;
   public int incorrect;
-  public boolean foundLetter;
   public String[]wordFamilies = new String[250000];
+  public String SecretWord = "";
   public String Underscore = "";
-  public ArrayList<String>correctGuess;
-  public ArrayList<String>allGuess;
+  public ArrayList<String>correctGuess;//เก็บคำถูก
+  public ArrayList<String>allGuess;//
   public static int count = 0;
   public static boolean playAgain = true;
-    
+  public boolean foundLetter = false;
+  
   public static void main(String[]args){
     while(playAgain == true){
    EvilHangman a = new EvilHangman();
    a.lengthOfWord();
    a.setWordFamilies();
    a.updateScreen();
+   a.compareLetter('t');
+   a.check();
    a.againToplay();
    }
   }
@@ -43,7 +46,7 @@ public class EvilHangman{
    int Length = sc.nextInt();
    wordLength = Length;
   }
-  public void setWordFamilies(){
+  public void setWordFamilies(){//เสร็จแล้ว
    String thisLine = "C:\\Users\\USER\\Desktop\\Code\\New folder\\EvilHangmanGroup9\\dictionary.txt";
    File file = new File(thisLine);
    try{
@@ -74,19 +77,51 @@ public class EvilHangman{
      Logger.getLogger(EvilHangman.class.getName()).log(Level.SEVERE,null,ex); 
    }
   }
-   public boolean compareLetter(){
-    for(int i = 0; i<count ;i++){
+   public boolean compareLetter(char Letter){//เปรียบเทียบกับในดิค อัพเดท wordfamilies เสร็จ
+    int newWord = 0;
+     for(int i = 0; i<count ;i++){
       for(int j = 0 ;j<wordLength ;j++){
-        /*if(wordFamilies[i].charAt(j) == ){
-          
-        }*/
+        if(wordFamilies[i].charAt(j) == Letter){
+          break;
+        }else{
+          if(j == wordLength - 1){
+            if(wordFamilies[i].charAt(j) != Letter){
+             newWord++; 
+          }
+        }
+       }
       }
-    }
-    return foundLetter;
+     }
+     String[]temp = new String[newWord];
+     int tempIndex = 0;
+     for(int i = 0; i<count ;i++){
+       for(int j = 0; j<wordLength ;j++){
+         if(wordFamilies[i].charAt(j) == Letter){
+           break;
+         }else{
+           if(j == wordLength - 1){
+             if(wordFamilies[i].charAt(j) != Letter){
+              temp[tempIndex] = wordFamilies[i];
+              tempIndex++;
+             }
+           }
+         }
+       }
+     }
+     if(newWord == 0){
+      SecretWord = wordFamilies[0];
+      return false;
+     }else{
+      SecretWord = temp[0];
+      count = newWord;
+      wordFamilies = temp;
+      return true;
+     }
   }
-   public void fillPositionLetter(){
+   public boolean fillPositionLetter(char Letter){//เติมคำ
     Scanner sc = new Scanner(System.in);
-    String input = sc.next();
+    foundLetter = false;
+    return false;
   }
   public int decreaseGuess(){
     
@@ -94,20 +129,18 @@ public class EvilHangman{
   }
   public int increaseIncorrectGuess(){
     if(foundLetter == false){
-     
       incorrect++;
     }
     return incorrect; 
   }
   public boolean checkNumberBlankPosition(){
-    
     return foundLetter;
   }
   public void updateScreen(){
     System.out.print(Underscore);
     System.out.println();
   }
-   public static boolean againToplay(){
+   public static boolean againToplay(){//เสร็จแล้ว
    Scanner sc = new Scanner(System.in);
    System.out.print("Do you want to play again (Y/N)?");
    String again = sc.nextLine();
@@ -116,7 +149,22 @@ public class EvilHangman{
     playAgain = true; 
    }else if(again.equals("N")){
     playAgain = false;
+    System.out.println("Thank for playing ");
    }
    return playAgain;
  }
+   public int totalGuessRemaining(){
+    return totalGuessRemaining; 
+   }
+   
+   public boolean Repeat(){
+    return false; 
+   }
+   public void check(){
+     int i = 0;
+     for(String x : wordFamilies){
+       i++;
+     }
+    System.out.println(i);
+   }
 }
