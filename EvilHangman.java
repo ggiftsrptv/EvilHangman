@@ -4,8 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
-import javax.swing.text.html.HTML;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -13,25 +11,29 @@ import java.util.logging.Logger;
 public class EvilHangman{
   public int wordLength;
   public int totalGuessRemaining;
-  public int correctGuess;
+  public int correct;
   public int incorrect;
   public boolean foundLetter;
   public String[]wordFamilies = new String[250000];
-  public ArrayList<String>correctGuess1;
+  public String Underscore = "";
+  public ArrayList<String>correctGuess;
   public ArrayList<String>allGuess;
-  public static int count;
-  
+  public static int count = 0;
+  public boolean playAgain = true;
+    
   public static void main(String[]args){
    EvilHangman a = new EvilHangman();
    a.lengthOfWord();
    a.setWordFamilies();
-   //a.print();
+   a.updateScreen();
+   a.againToplay();
   }
   public EvilHangman(){
    wordLength = 0;
    totalGuessRemaining = 0;
-   correctGuess = 0;
+   correct = 0;
    incorrect = 0;
+   count = 0;
   }
   public void lengthOfWord(){
    Scanner sc = new Scanner(System.in);
@@ -51,7 +53,17 @@ public class EvilHangman{
         count++;
        }
      }
+     if(count>0){
      System.out.println("Words with length " + wordLength + " have " + count + " words");
+     for(int i = 0; i < wordLength ; i++){
+       Underscore += "_ "; 
+     }
+    }else{
+      System.out.println("Can't find word with length "+wordLength); 
+     }
+   }
+   catch(StringIndexOutOfBoundsException ex){
+     Logger.getLogger(EvilHangman.class.getName()).log(Level.SEVERE,null,ex);
    }
    catch(FileNotFoundException ex){
      Logger.getLogger(EvilHangman.class.getName()).log(Level.SEVERE,null,ex);
@@ -60,31 +72,51 @@ public class EvilHangman{
      Logger.getLogger(EvilHangman.class.getName()).log(Level.SEVERE,null,ex); 
    }
   }
-  public int decreaseGuess(){
-    
-    return totalGuessRemaining;
-  }
-  public boolean compareLetter(){
-    
+   public boolean compareLetter(){
+    for(int i = 0; i<count ;i++){
+      for(int j = 0 ;j<wordLength ;j++){
+        /*if(wordFamilies[i].charAt(j) == ){
+          
+        }*/
+      }
+    }
     return foundLetter;
   }
+   public void fillPositionLetter(){
+    Scanner sc = new Scanner(System.in);
+    String input = sc.next();
+  }
+  public int decreaseGuess(){
+    /*if(founLetter == true || foundLetter == false){
+      totalGuessRemaining--;
+    }*/
+    return totalGuessRemaining;
+  }
   public int increaseIncorrectGuess(){
-    if(totalGuessRemaining == incorrect){
-     //game over 
+    if(foundLetter == false){
+     //game over
+      incorrect++;
     }
     return incorrect; 
   }
-  public void fillPositionLetter(){
+  public boolean checkNumberBlankPosition(){
     
-  }
-  public int checkNumberBlankPosition(){
-    
-    return wordLength;
+    return foundLetter;
   }
   public void updateScreen(){
-    
+    System.out.print(Underscore);
+    System.out.println();
   }
-  /*public void print(){
-      System.out.println(count); 
-  }*/
+   public boolean againToplay(){
+   Scanner sc = new Scanner(System.in);
+   System.out.print("Do you want to play again (Y/N)?");
+   String again = sc.nextLine();
+   System.out.println();
+   if(again.equals("Y")){
+    playAgain = true; 
+   }else if(again.equals("N")){
+    playAgain = false; 
+   }
+   return playAgain;
+ }
 }
