@@ -9,8 +9,8 @@ public class Player extends EvilHangman{
  public char guessLetter(){
   return letterGussed; 
  }
- public boolean againToplay(){
+ /*public boolean againToplay(){
    
    return playAgain;
- }
+ }*/
 }
