@@ -6427,3 +6427,321 @@ fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.ja
 27 เม.ย. 2560 17:59:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6026b9
 27 เม.ย. 2560 17:59:50 GMT:  Kind = WARNING
 27 เม.ย. 2560 17:59:50 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 165 ColNo = 17 Msg = 'The value of the local variable x is not used'
+27 เม.ย. 2560 18:03:44 GMT: diagnostics = javax.tools.DiagnosticCollector@1c431ed
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b6dd0c
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+27 เม.ย. 2560 18:03:44 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@176ec40' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+27 เม.ย. 2560 18:03:44 GMT: Compiler call returned
+27 เม.ย. 2560 18:03:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@84eb3
+27 เม.ย. 2560 18:03:44 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:44 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 1 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+27 เม.ย. 2560 18:03:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@24d6a3
+27 เม.ย. 2560 18:03:44 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:44 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 2 ColNo = 8 Msg = 'The import java.util.Scanner is never used'
+27 เม.ย. 2560 18:03:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e88179
+27 เม.ย. 2560 18:03:44 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:44 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 35 ColNo = 4 Msg = 'The static method againToplay() from the type EvilHangman should be accessed in a static way'
+27 เม.ย. 2560 18:03:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18de56a
+27 เม.ย. 2560 18:03:44 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:44 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 46 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:03:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1665bbe
+27 เม.ย. 2560 18:03:44 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:44 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 55 ColNo = 24 Msg = 'Resource leak: 'br' is never closed'
+27 เม.ย. 2560 18:03:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13503bf
+27 เม.ย. 2560 18:03:44 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:44 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 124 ColNo = 13 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:03:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@176b6a9
+27 เม.ย. 2560 18:03:44 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:44 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 146 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:03:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@112ae58
+27 เม.ย. 2560 18:03:44 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:44 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 124 ColNo = 13 Msg = 'The value of the local variable sc is not used'
+27 เม.ย. 2560 18:03:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a0ad2f
+27 เม.ย. 2560 18:03:44 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:44 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 167 ColNo = 17 Msg = 'The value of the local variable x is not used'
+27 เม.ย. 2560 18:03:56 GMT: diagnostics = javax.tools.DiagnosticCollector@186b79e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@11f9d56
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+27 เม.ย. 2560 18:03:56 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@10941f4' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+27 เม.ย. 2560 18:03:56 GMT: Compiler call returned
+27 เม.ย. 2560 18:03:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17fc499
+27 เม.ย. 2560 18:03:56 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:56 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 1 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+27 เม.ย. 2560 18:03:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1df6333
+27 เม.ย. 2560 18:03:56 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:56 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 2 ColNo = 8 Msg = 'The import java.util.Scanner is never used'
+27 เม.ย. 2560 18:03:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c6ffc7
+27 เม.ย. 2560 18:03:56 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:56 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 34 ColNo = 4 Msg = 'The static method againToplay() from the type EvilHangman should be accessed in a static way'
+27 เม.ย. 2560 18:03:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1480f55
+27 เม.ย. 2560 18:03:56 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:56 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 45 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:03:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d84d29
+27 เม.ย. 2560 18:03:56 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:56 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 54 ColNo = 24 Msg = 'Resource leak: 'br' is never closed'
+27 เม.ย. 2560 18:03:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3c7c7a
+27 เม.ย. 2560 18:03:56 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:56 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 123 ColNo = 13 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:03:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c68bbd
+27 เม.ย. 2560 18:03:56 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:56 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 145 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:03:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11b0ed7
+27 เม.ย. 2560 18:03:56 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:56 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 123 ColNo = 13 Msg = 'The value of the local variable sc is not used'
+27 เม.ย. 2560 18:03:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10cb798
+27 เม.ย. 2560 18:03:56 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:03:56 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 166 ColNo = 17 Msg = 'The value of the local variable x is not used'
+27 เม.ย. 2560 18:04:28 GMT: diagnostics = javax.tools.DiagnosticCollector@12e1e94
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@16baaef
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+27 เม.ย. 2560 18:04:28 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14eae29' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+27 เม.ย. 2560 18:04:28 GMT: Compiler call returned
+27 เม.ย. 2560 18:04:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1aee9f7
+27 เม.ย. 2560 18:04:28 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:28 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 1 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+27 เม.ย. 2560 18:04:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4a1e36
+27 เม.ย. 2560 18:04:28 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:28 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 2 ColNo = 8 Msg = 'The import java.util.Scanner is never used'
+27 เม.ย. 2560 18:04:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d829ea
+27 เม.ย. 2560 18:04:28 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:28 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 36 ColNo = 4 Msg = 'The static method againToplay() from the type EvilHangman should be accessed in a static way'
+27 เม.ย. 2560 18:04:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14c6890
+27 เม.ย. 2560 18:04:28 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:28 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 47 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:04:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13bd55f
+27 เม.ย. 2560 18:04:28 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:28 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 56 ColNo = 24 Msg = 'Resource leak: 'br' is never closed'
+27 เม.ย. 2560 18:04:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@136df60
+27 เม.ย. 2560 18:04:28 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:28 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 125 ColNo = 13 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:04:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@263895
+27 เม.ย. 2560 18:04:28 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:28 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 147 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:04:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@26c169
+27 เม.ย. 2560 18:04:28 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:28 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 125 ColNo = 13 Msg = 'The value of the local variable sc is not used'
+27 เม.ย. 2560 18:04:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@194659f
+27 เม.ย. 2560 18:04:28 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:28 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 168 ColNo = 17 Msg = 'The value of the local variable x is not used'
+27 เม.ย. 2560 18:04:39 GMT: diagnostics = javax.tools.DiagnosticCollector@967d49
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1256051
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+27 เม.ย. 2560 18:04:39 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@76477b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+27 เม.ย. 2560 18:04:40 GMT: Compiler call returned
+27 เม.ย. 2560 18:04:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6ee2aa
+27 เม.ย. 2560 18:04:40 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:40 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 1 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+27 เม.ย. 2560 18:04:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@145edc3
+27 เม.ย. 2560 18:04:40 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:40 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 2 ColNo = 8 Msg = 'The import java.util.Scanner is never used'
+27 เม.ย. 2560 18:04:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1431f16
+27 เม.ย. 2560 18:04:40 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:40 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 33 ColNo = 4 Msg = 'The static method againToplay() from the type EvilHangman should be accessed in a static way'
+27 เม.ย. 2560 18:04:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2a2ecc
+27 เม.ย. 2560 18:04:40 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:40 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 44 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:04:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10ee991
+27 เม.ย. 2560 18:04:40 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:40 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 53 ColNo = 24 Msg = 'Resource leak: 'br' is never closed'
+27 เม.ย. 2560 18:04:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1793206
+27 เม.ย. 2560 18:04:40 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:40 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:04:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e32890
+27 เม.ย. 2560 18:04:40 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:40 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 144 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:04:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19c300e
+27 เม.ย. 2560 18:04:40 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:40 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'The value of the local variable sc is not used'
+27 เม.ย. 2560 18:04:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1841d8d
+27 เม.ย. 2560 18:04:40 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:40 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 165 ColNo = 17 Msg = 'The value of the local variable x is not used'
+27 เม.ย. 2560 18:04:50 GMT: diagnostics = javax.tools.DiagnosticCollector@4f750b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c761d2
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+27 เม.ย. 2560 18:04:50 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1231df6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+27 เม.ย. 2560 18:04:50 GMT: Compiler call returned
+27 เม.ย. 2560 18:04:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bfbf67
+27 เม.ย. 2560 18:04:50 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:50 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 1 ColNo = 8 Msg = 'The import java.util.ArrayList is never used'
+27 เม.ย. 2560 18:04:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@78f871
+27 เม.ย. 2560 18:04:50 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:50 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\Player.java LineNo = 2 ColNo = 8 Msg = 'The import java.util.Scanner is never used'
+27 เม.ย. 2560 18:04:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b73747
+27 เม.ย. 2560 18:04:50 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:50 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 33 ColNo = 4 Msg = 'The static method againToplay() from the type EvilHangman should be accessed in a static way'
+27 เม.ย. 2560 18:04:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@156308c
+27 เม.ย. 2560 18:04:50 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:50 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 44 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:04:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ffff46
+27 เม.ย. 2560 18:04:50 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:50 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 53 ColNo = 24 Msg = 'Resource leak: 'br' is never closed'
+27 เม.ย. 2560 18:04:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19d25d8
+27 เม.ย. 2560 18:04:50 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:50 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:04:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f22d23
+27 เม.ย. 2560 18:04:50 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:50 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 144 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+27 เม.ย. 2560 18:04:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f0a901
+27 เม.ย. 2560 18:04:50 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:50 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'The value of the local variable sc is not used'
+27 เม.ย. 2560 18:04:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@867f76
+27 เม.ย. 2560 18:04:50 GMT:  Kind = WARNING
+27 เม.ย. 2560 18:04:50 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 165 ColNo = 17 Msg = 'The value of the local variable x is not used'
+28 เม.ย. 2560 8:49:10 GMT: Log 'EclipseCompiler.txt' opened: 28 เม.ย. 2560 8:49:10 GMT with name C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EclipseCompiler.txt
+28 เม.ย. 2560 8:49:23 GMT: diagnostics = javax.tools.DiagnosticCollector@56ef02
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@9fef10
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+28 เม.ย. 2560 8:49:23 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17b1c97' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+28 เม.ย. 2560 8:49:24 GMT: Compiler call returned
+28 เม.ย. 2560 8:49:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dfc799
+28 เม.ย. 2560 8:49:24 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:49:24 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 32 ColNo = 4 Msg = 'The static method againToplay() from the type EvilHangman should be accessed in a static way'
+28 เม.ย. 2560 8:49:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18590fc
+28 เม.ย. 2560 8:49:24 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:49:24 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 43 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:49:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bb6a1a
+28 เม.ย. 2560 8:49:24 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:49:24 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 52 ColNo = 24 Msg = 'Resource leak: 'br' is never closed'
+28 เม.ย. 2560 8:49:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1698922
+28 เม.ย. 2560 8:49:24 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:49:24 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 121 ColNo = 13 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:49:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f36cd1
+28 เม.ย. 2560 8:49:24 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:49:24 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 143 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:49:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16e07c3
+28 เม.ย. 2560 8:49:24 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:49:24 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 121 ColNo = 13 Msg = 'The value of the local variable sc is not used'
+28 เม.ย. 2560 8:49:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@305c0e
+28 เม.ย. 2560 8:49:24 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:49:24 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 164 ColNo = 17 Msg = 'The value of the local variable x is not used'
+28 เม.ย. 2560 8:50:40 GMT: diagnostics = javax.tools.DiagnosticCollector@61d690
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1c94a5d
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+28 เม.ย. 2560 8:50:40 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1beae32' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+28 เม.ย. 2560 8:50:41 GMT: Compiler call returned
+28 เม.ย. 2560 8:50:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10c2ea6
+28 เม.ย. 2560 8:50:41 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:50:41 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 33 ColNo = 4 Msg = 'The static method againToplay() from the type EvilHangman should be accessed in a static way'
+28 เม.ย. 2560 8:50:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f34371
+28 เม.ย. 2560 8:50:41 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:50:41 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 44 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:50:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@95b679
+28 เม.ย. 2560 8:50:41 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:50:41 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 53 ColNo = 24 Msg = 'Resource leak: 'br' is never closed'
+28 เม.ย. 2560 8:50:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@70830
+28 เม.ย. 2560 8:50:41 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:50:41 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:50:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8a7c48
+28 เม.ย. 2560 8:50:41 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:50:41 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 144 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:50:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c452a3
+28 เม.ย. 2560 8:50:41 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:50:41 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'The value of the local variable sc is not used'
+28 เม.ย. 2560 8:50:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@157133c
+28 เม.ย. 2560 8:50:41 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:50:41 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 165 ColNo = 17 Msg = 'The value of the local variable x is not used'
+28 เม.ย. 2560 8:52:33 GMT: diagnostics = javax.tools.DiagnosticCollector@1f8b8e7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@40ca57
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+28 เม.ย. 2560 8:52:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f6d974' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+28 เม.ย. 2560 8:52:33 GMT: Compiler call returned
+28 เม.ย. 2560 8:52:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19039a6
+28 เม.ย. 2560 8:52:33 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:33 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 33 ColNo = 4 Msg = 'The static method againToplay() from the type EvilHangman should be accessed in a static way'
+28 เม.ย. 2560 8:52:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d828c3
+28 เม.ย. 2560 8:52:33 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:33 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 44 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:52:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e618bd
+28 เม.ย. 2560 8:52:33 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:33 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 53 ColNo = 24 Msg = 'Resource leak: 'br' is never closed'
+28 เม.ย. 2560 8:52:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a73c53
+28 เม.ย. 2560 8:52:33 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:33 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:52:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ae7ac8
+28 เม.ย. 2560 8:52:33 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:33 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 144 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:52:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5bcc8e
+28 เม.ย. 2560 8:52:33 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:33 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'The value of the local variable sc is not used'
+28 เม.ย. 2560 8:52:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c40a08
+28 เม.ย. 2560 8:52:33 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:33 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 165 ColNo = 17 Msg = 'The value of the local variable x is not used'
+28 เม.ย. 2560 8:52:39 GMT: diagnostics = javax.tools.DiagnosticCollector@10d1e6f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@15c3cb8
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+28 เม.ย. 2560 8:52:39 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@393add' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+28 เม.ย. 2560 8:52:39 GMT: Compiler call returned
+28 เม.ย. 2560 8:52:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1addc6d
+28 เม.ย. 2560 8:52:39 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:39 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 33 ColNo = 4 Msg = 'The static method againToplay() from the type EvilHangman should be accessed in a static way'
+28 เม.ย. 2560 8:52:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@102c3e0
+28 เม.ย. 2560 8:52:39 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:39 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 44 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:52:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8db2b1
+28 เม.ย. 2560 8:52:39 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:39 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 53 ColNo = 24 Msg = 'Resource leak: 'br' is never closed'
+28 เม.ย. 2560 8:52:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a71508
+28 เม.ย. 2560 8:52:39 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:39 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:52:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fafbc5
+28 เม.ย. 2560 8:52:39 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:39 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 144 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 8:52:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3399
+28 เม.ย. 2560 8:52:39 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:39 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'The value of the local variable sc is not used'
+28 เม.ย. 2560 8:52:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15d1b92
+28 เม.ย. 2560 8:52:39 GMT:  Kind = WARNING
+28 เม.ย. 2560 8:52:39 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 165 ColNo = 17 Msg = 'The value of the local variable x is not used'
+28 เม.ย. 2560 9:56:53 GMT: Log 'EclipseCompiler.txt' opened: 28 เม.ย. 2560 9:56:53 GMT with name C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EclipseCompiler.txt
+28 เม.ย. 2560 9:59:04 GMT: diagnostics = javax.tools.DiagnosticCollector@d164d6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@9c06b8
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+28 เม.ย. 2560 9:59:04 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@cc149d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+28 เม.ย. 2560 9:59:04 GMT: Compiler call returned
+28 เม.ย. 2560 9:59:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9d09d5
+28 เม.ย. 2560 9:59:04 GMT:  Kind = WARNING
+28 เม.ย. 2560 9:59:04 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 33 ColNo = 4 Msg = 'The static method againToplay() from the type EvilHangman should be accessed in a static way'
+28 เม.ย. 2560 9:59:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fdbeac
+28 เม.ย. 2560 9:59:04 GMT:  Kind = WARNING
+28 เม.ย. 2560 9:59:04 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 44 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 9:59:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b4cc27
+28 เม.ย. 2560 9:59:04 GMT:  Kind = WARNING
+28 เม.ย. 2560 9:59:04 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 53 ColNo = 24 Msg = 'Resource leak: 'br' is never closed'
+28 เม.ย. 2560 9:59:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4fcd6b
+28 เม.ย. 2560 9:59:04 GMT:  Kind = WARNING
+28 เม.ย. 2560 9:59:04 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 9:59:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@32da1f
+28 เม.ย. 2560 9:59:04 GMT:  Kind = WARNING
+28 เม.ย. 2560 9:59:04 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 144 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 9:59:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d0126b
+28 เม.ย. 2560 9:59:04 GMT:  Kind = WARNING
+28 เม.ย. 2560 9:59:04 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'The value of the local variable sc is not used'
+28 เม.ย. 2560 9:59:04 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13e30e2
+28 เม.ย. 2560 9:59:04 GMT:  Kind = WARNING
+28 เม.ย. 2560 9:59:04 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 165 ColNo = 17 Msg = 'The value of the local variable x is not used'
+28 เม.ย. 2560 10:06:38 GMT: diagnostics = javax.tools.DiagnosticCollector@164cf57
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1376ee6
+fileObjects = [C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java]
+28 เม.ย. 2560 10:06:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@d80744' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9;C:\Users\USER\Desktop\Drjava.exe]
+28 เม.ย. 2560 10:06:38 GMT: Compiler call returned
+28 เม.ย. 2560 10:06:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d380e8
+28 เม.ย. 2560 10:06:38 GMT:  Kind = WARNING
+28 เม.ย. 2560 10:06:38 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 33 ColNo = 4 Msg = 'The static method againToplay() from the type EvilHangman should be accessed in a static way'
+28 เม.ย. 2560 10:06:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e386e8
+28 เม.ย. 2560 10:06:38 GMT:  Kind = WARNING
+28 เม.ย. 2560 10:06:38 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 44 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 10:06:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@774cdb
+28 เม.ย. 2560 10:06:38 GMT:  Kind = WARNING
+28 เม.ย. 2560 10:06:38 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 53 ColNo = 24 Msg = 'Resource leak: 'br' is never closed'
+28 เม.ย. 2560 10:06:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8fa54c
+28 เม.ย. 2560 10:06:38 GMT:  Kind = WARNING
+28 เม.ย. 2560 10:06:38 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 10:06:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6ba4f5
+28 เม.ย. 2560 10:06:38 GMT:  Kind = WARNING
+28 เม.ย. 2560 10:06:38 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 144 ColNo = 12 Msg = 'Resource leak: 'sc' is never closed'
+28 เม.ย. 2560 10:06:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a3a556
+28 เม.ย. 2560 10:06:38 GMT:  Kind = WARNING
+28 เม.ย. 2560 10:06:38 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 122 ColNo = 13 Msg = 'The value of the local variable sc is not used'
+28 เม.ย. 2560 10:06:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e300d
+28 เม.ย. 2560 10:06:38 GMT:  Kind = WARNING
+28 เม.ย. 2560 10:06:38 GMT: Name = C:\Users\USER\Desktop\Code\New folder\EvilHangmanGroup9\EvilHangman.java LineNo = 165 ColNo = 17 Msg = 'The value of the local variable x is not used'

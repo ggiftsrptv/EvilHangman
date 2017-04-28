@@ -28,7 +28,7 @@ public class EvilHangman{
    a.lengthOfWord();
    a.setWordFamilies();
    a.updateScreen();
-   a.compareLetter('t');
+   a.compareLetter('a');
    a.check();
    a.againToplay();
    }
