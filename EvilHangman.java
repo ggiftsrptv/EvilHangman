@@ -18,8 +18,8 @@ public class EvilHangman {
     public String[] wordFamilies = new String[250000];
     public String SecretWord = "";
     public String Underscore = "";
-    public ArrayList<String> correctGuess;//�纤Ӷ١
-    public ArrayList<String> allGuess;//
+    public ArrayList<String> correctGuess;
+    public ArrayList<String> allGuess;
     public static int count = 0;
     public static boolean playAgain = true;
     public boolean foundLetter = false;
@@ -51,8 +51,8 @@ public class EvilHangman {
         wordLength = Length;
     }
 
-    public void setWordFamilies() {//��������
-        String thisLine = "C:\\Users\\Deziio\\Desktop\\EvilHangmanGroup9\\dictionary.txt";
+    public void setWordFamilies() {
+        String thisLine = "dictionary.txt";
         File file = new File(thisLine);
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
@@ -80,7 +80,7 @@ public class EvilHangman {
         }
     }
 
-    public boolean compareLetter(char Letter) {//���º��º�Ѻ㹴Ԥ �Ѿഷ wordfamilies ����
+    public boolean compareLetter(char Letter) {
         int newWord = 0;
         for (int i = 0; i < count; i++) {
             for (int j = 0; j < wordLength; j++) {
@@ -122,7 +122,7 @@ public class EvilHangman {
         }
     }
 
-    public boolean fillPositionLetter(char Letter) {//�����
+    public boolean fillPositionLetter(char Letter) {
         Scanner sc = new Scanner(System.in);
         foundLetter = false;
         return false;
@@ -149,7 +149,7 @@ public class EvilHangman {
         System.out.println();
     }
 
-    public static boolean againToplay() {//��������
+    public static boolean againToplay() {
         Scanner sc = new Scanner(System.in);
         boolean check = false;
         while (check == false) {
