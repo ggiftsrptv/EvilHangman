@@ -22,6 +22,7 @@ public class EvilHangman {
     public String[]allGuess = new String[24];
     public static int count = 0;
     public static boolean playAgain = true;
+    public static boolean playing = false;
     public boolean foundLetter = false;
 
     public static void main(String[] args) {
@@ -31,8 +32,11 @@ public class EvilHangman {
             a.setWordFamilies();
             a.updateScreen();
             //a.compareLetter('t');
+            playing = true;
+            while(playing){
             a.fillPositionLetter();
-            a.check();// >>> ลองเช็คคำถ้าใส่ตัวอักษรแล้วมันเหลืออยู่กี่คำ
+            a.check();
+            }
             //a.againToplay();
         }
     }
@@ -45,7 +49,7 @@ public class EvilHangman {
         count = 0;
     }
 
-    public void lengthOfWord() {//เสร็จแล้ว
+    public void lengthOfWord() {//๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter word length: ");
         int Length = sc.nextInt();
@@ -55,7 +59,7 @@ public class EvilHangman {
         totalGuessRemaining = guess;
     }
 
-    public void setWordFamilies() {//**เสร็จแล้ว**
+    public void setWordFamilies() {//**๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ**
         String thisLine = "dictionary.txt";
         File file = new File(thisLine);
         try {
@@ -73,7 +77,10 @@ public class EvilHangman {
                     Underscore += "_ ";
                 }
             } else {
-                System.out.println("Can't find word with length " + wordLength);
+                System.out.println("Can't find word with len4gth " + wordLength);
+                lengthOfWord();
+                setWordFamilies();
+                
             }
         } catch (StringIndexOutOfBoundsException ex) {
             Logger.getLogger(EvilHangman.class.getName()).log(Level.SEVERE, null, ex);
@@ -84,7 +91,7 @@ public class EvilHangman {
         }
     }
 
-    public boolean compareLetter(char Letter) {//**เสร็จแล้ว**
+    public boolean compareLetter(char Letter) {//**๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ**
         int newWord = 0;
         for (int i = 0; i < count; i++) {
             for (int j = 0; j < wordLength; j++) {
@@ -123,32 +130,44 @@ public class EvilHangman {
             count = newWord;
             wordFamilies = temp;
             return true;
+            
         }
     }
-    public void fillPositionLetter() {//**ยังไม่เสร็จ**
+    public void fillPositionLetter() {//**๏ฟฝัง๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ**
       Scanner sc = new Scanner(System.in);
       foundLetter = false;      
-      System.out.print("Enter your letter");
+      System.out.print("Enter your letter : ");
       char c = sc.next().toLowerCase().charAt(0);
       LetterGuess = c;
-        if(compareLetter(LetterGuess)){
+         if(compareLetter(LetterGuess)){
          decreaseGuess();
          System.out.println("Wrong");
          System.out.println("you can guess = "+totalGuessRemaining+" time");
+        
+         
          foundLetter = false;
         }
+        
         else{
           correct++;
-         foundLetter = true;    
+         foundLetter = true;
         }
+         if (totalGuessRemaining==0){
+             playing = false;
+             playAgain = false;
+             againToplay();
+         }
+        
+      
+        
       }
     public int decreaseGuess() {
         totalGuessRemaining--;
         if(totalGuessRemaining == 0){
-         System.out.println("Game Over");
-         againToplay();
+         System.out.println("Game Over"); 
         }
         return totalGuessRemaining;
+        
     }
 
     public int increaseIncorrectGuess() {
@@ -167,7 +186,7 @@ public class EvilHangman {
         System.out.println();
     }
 
-    public static boolean againToplay() {//**เสร็จแล้ว**
+    public static boolean againToplay() {//**๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ**
         Scanner sc = new Scanner(System.in);
         boolean check = false;
         while (check == false) {
@@ -193,6 +212,7 @@ public class EvilHangman {
     }
 
     public boolean Repeat() {
+        
         return false;
     }
 
@@ -201,6 +221,6 @@ public class EvilHangman {
         for (String x : wordFamilies) {
             i++;
         }
-        System.out.println(i);
+        System.out.println("Now you have words to guess left : " + i + " words");
     }
 }
