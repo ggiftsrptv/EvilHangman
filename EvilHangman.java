@@ -32,10 +32,13 @@ public class EvilHangman {
             a.setWordFamilies();
             a.updateScreen();
             //a.compareLetter('t');
+            a.fillPositionLetter();
             playing = true;
             while(playing){
-            a.fillPositionLetter();
+            a.updateScreen();
             a.check();
+            a.fillPositionLetter();
+            
             }
             //a.againToplay();
         }
@@ -184,6 +187,7 @@ public class EvilHangman {
     public void updateScreen() {
         System.out.print(Underscore);
         System.out.println();
+        System.out.println(SecretWord);//for show to know what word
     }
 
     public static boolean againToplay() {//**��������**
@@ -222,5 +226,6 @@ public class EvilHangman {
             i++;
         }
         System.out.println("Now you have words to guess left : " + i + " words");
+        
     }
 }
