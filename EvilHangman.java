@@ -1,3 +1,4 @@
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.File;
@@ -16,16 +17,17 @@ public class EvilHangman {
     public int incorrect;
     public String[] wordFamilies = new String[250000];
     public String SecretWord = "";
-    public String Underscore = "";
+    public static String Underscore = "";
     public char LetterGuess;
     private String LetterGuessbefore = "";
     public ArrayList<String> correctGuess;
-    public String[]allGuess = new String[24];
+    public String[] allGuess = new String[24];
     public static int count = 0;
     public static boolean playAgain = true;
     public static boolean playing = false;
     public boolean foundLetter = false;
     String lockedWord = null;
+    static String ans = "";
 
     public static void main(String[] args) {
         System.out.println("Welcome to Evil Hangman");
@@ -38,11 +40,13 @@ public class EvilHangman {
             //a.compareLetter('t');
             a.fillPositionLetter();
             playing = true;
-            while(playing){
-            a.updateScreen();
-            a.LetterGuess();
-            a.check();
-            a.fillPositionLetter();
+            while (playing) {
+                a.updateScreen();
+                a.LetterGuess();
+                a.check();
+                System.out.println(Underscore);
+
+                a.fillPositionLetter();
             }
             //a.againToplay();
         }
@@ -64,7 +68,7 @@ public class EvilHangman {
         System.out.print("Enter your total guess: ");
         int guess = sc.nextInt();
         totalGuessRemaining = guess;
-        
+
     }
 
     public void setWordFamilies() {//**��������**
@@ -73,7 +77,7 @@ public class EvilHangman {
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
             String KeepWord;
-            
+
             while ((KeepWord = br.readLine()) != null) {
                 if (KeepWord.length() == wordLength) {
                     wordFamilies[count] = KeepWord;
@@ -89,13 +93,13 @@ public class EvilHangman {
                 System.out.println("Can't find word with length " + wordLength);
                 lengthOfWord();
                 setWordFamilies();
-                
+
             }
         } catch (StringIndexOutOfBoundsException ex) {
             Logger.getLogger(EvilHangman.class.getName()).log(Level.SEVERE, null, ex);
-        } /*catch (FileNotFoundException ex) {
+        } catch (FileNotFoundException ex) {
             Logger.getLogger(EvilHangman.class.getName()).log(Level.SEVERE, null, ex);
-        }*/ catch (IOException ex) {
+        } catch (IOException ex) {
             Logger.getLogger(EvilHangman.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -139,73 +143,73 @@ public class EvilHangman {
             count = newWord;
             wordFamilies = temp;
             return true;
-            
+
         }
     }
+
     public void fillPositionLetter() {
-      Scanner sc = new Scanner(System.in);
-      foundLetter = false; 
-      System.out.print("Enter your letter : ");
-      char c = sc.next().toLowerCase().charAt(0);
-      
-      LetterGuess = c;
-         if(compareLetter(LetterGuess)){
-         decreaseGuess();
-         System.out.println("Wrong");
-         System.out.println("you can guess = "+totalGuessRemaining+" time");
-        
-         
-         foundLetter = false;
-        }
-        
-        else{
-          if(lockedWord == null) {
-              
-          }
-          correct++;
-          for(int i = 0;i<SecretWord.length();i++){
-            if(SecretWord.charAt(i) == c){
-          String ans = "";
-          for(int j = 0; j < SecretWord.length(); j++){
-            if(SecretWord.charAt(j) == c)
-            {
-              ans = ans + c + " ";
+        Scanner sc = new Scanner(System.in);
+        foundLetter = false;
+
+        System.out.print("Enter your letter : ");
+        char c = sc.next().toLowerCase().charAt(0);
+
+        LetterGuess = c;
+        if (compareLetter(LetterGuess)) {
+            decreaseGuess();
+            System.out.println("Wrong");
+            System.out.println("you can guess = " + totalGuessRemaining + " time");
+
+            foundLetter = false;
+        } else {
+            if (lockedWord == null) {
+
             }
-            else
-            {
-              ans = ans+Underscore.charAt(2*j) + Underscore.charAt(2*j+1);       
+            correct++;
+            for (int i = 0; i < SecretWord.length(); i++) {
+                if (SecretWord.charAt(i) == c) {
+
+                    ans = "";
+
+                    for (int j = 0; j < SecretWord.length(); j++) {
+                        if (SecretWord.charAt(j) == c) {
+                            ans = ans + c + " ";
+                        } else {
+                            ans = ans + Underscore.charAt(2 * j) + Underscore.charAt(2 * j + 1);
+                        }
+                    }
+                    Underscore = ans;
+
+                }
+
             }
-          }
-          Underscore = ans;
-          
-          if(ans.equalsIgnoreCase(SecretWord)){
-           System.out.println("You Win");
-           System.out.println("The answer is : "+ SecretWord);
-           playing = false;
-           playAgain = false;
-           againToplay();
-          }
-          
-         }
-          
+            foundLetter = true;
         }
-         foundLetter = true;
+
+        if (Underscore.replaceAll(" ", "") == SecretWord) {
+            System.out.println("You Win");
+            System.out.println("The answer is : " + SecretWord);
+            playing = false;
+            playAgain = false;
+            againToplay();
         }
-         if (totalGuessRemaining==0){
-             playing = false;
-             playAgain = false;
-             againToplay();
-         }
-         
-      }
+
+        if (totalGuessRemaining == 0) {
+            playing = false;
+            playAgain = false;
+            againToplay();
+        }
+
+    }
+
     public int decreaseGuess() {
         totalGuessRemaining--;
-        if(totalGuessRemaining == 0){
-         System.out.println("Game Over");
-         //System.out.println("The answer is : "+ SecretWord);
+        if (totalGuessRemaining == 0) {
+            System.out.println("Game Over");
+            //System.out.println("The answer is : "+ SecretWord);
         }
         return totalGuessRemaining;
-        
+
     }
 
     public int increaseIncorrectGuess() {
@@ -216,7 +220,7 @@ public class EvilHangman {
     }
 
     public void updateScreen() {
-        String replace = Underscore.replaceAll(" ","");;
+        String replace = Underscore.replaceAll(" ", "");;
         System.out.print(Underscore);
         System.out.println();
         //System.out.println(SecretWord);//for show to know what word
@@ -249,8 +253,8 @@ public class EvilHangman {
 
     public void Repeat() {
         //while(totalGuessRemaining>=0){
-           //String ans = updateScreen().replaceAll(" ","");
-       // }
+        //String ans = updateScreen().replaceAll(" ","");
+        // }
     }
 
     public void check() {
@@ -259,11 +263,12 @@ public class EvilHangman {
             i++;
         }
         System.out.println("Now you have words to guess left : " + i + " words");
-        
+
     }
+
     public String LetterGuess() {
-        LetterGuessbefore = LetterGuessbefore +" "+ LetterGuess;
-        System.out.println("The Letter you have already guess : "+LetterGuessbefore);
+        LetterGuessbefore = LetterGuessbefore + " " + LetterGuess;
+        System.out.println("The Letter you have already guess : " + LetterGuessbefore);
         return LetterGuessbefore;
-  }
+    }
 }
