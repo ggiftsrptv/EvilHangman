@@ -25,6 +25,7 @@ public class EvilHangman {
     public static boolean playAgain = true;
     public static boolean playing = false;
     public boolean foundLetter = false;
+    String lockedWord = null;
 
     public static void main(String[] args) {
         System.out.println("Welcome to Evil Hangman");
@@ -42,7 +43,6 @@ public class EvilHangman {
             a.LetterGuess();
             a.check();
             a.fillPositionLetter();
-            
             }
             //a.againToplay();
         }
@@ -64,6 +64,7 @@ public class EvilHangman {
         System.out.print("Enter your total guess: ");
         int guess = sc.nextInt();
         totalGuessRemaining = guess;
+        
     }
 
     public void setWordFamilies() {//**��������**
@@ -72,7 +73,8 @@ public class EvilHangman {
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
             String KeepWord;
-            while ((KeepWord = br.readLine()) != null) {//add word into array
+            
+            while ((KeepWord = br.readLine()) != null) {
                 if (KeepWord.length() == wordLength) {
                     wordFamilies[count] = KeepWord;
                     count++;
@@ -84,16 +86,16 @@ public class EvilHangman {
                     Underscore += "_ ";
                 }
             } else {
-                System.out.println("Can't find word with len4gth " + wordLength);
+                System.out.println("Can't find word with length " + wordLength);
                 lengthOfWord();
                 setWordFamilies();
                 
             }
         } catch (StringIndexOutOfBoundsException ex) {
             Logger.getLogger(EvilHangman.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (FileNotFoundException ex) {
+        } /*catch (FileNotFoundException ex) {
             Logger.getLogger(EvilHangman.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IOException ex) {
+        }*/ catch (IOException ex) {
             Logger.getLogger(EvilHangman.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -140,10 +142,9 @@ public class EvilHangman {
             
         }
     }
-    public void fillPositionLetter() {//**�ѧ�������**
-     // boolean chc =false;
+    public void fillPositionLetter() {
       Scanner sc = new Scanner(System.in);
-      foundLetter = false;      
+      foundLetter = false; 
       System.out.print("Enter your letter : ");
       char c = sc.next().toLowerCase().charAt(0);
       
@@ -158,9 +159,12 @@ public class EvilHangman {
         }
         
         else{
+          if(lockedWord == null) {
+              
+          }
           correct++;
           for(int i = 0;i<SecretWord.length();i++){
-          if(SecretWord.charAt(i) == c){
+            if(SecretWord.charAt(i) == c){
           String ans = "";
           for(int j = 0; j < SecretWord.length(); j++){
             if(SecretWord.charAt(j) == c)
@@ -174,14 +178,16 @@ public class EvilHangman {
           }
           Underscore = ans;
           
-          if(ans==SecretWord){
+          if(ans.equalsIgnoreCase(SecretWord)){
            System.out.println("You Win");
            System.out.println("The answer is : "+ SecretWord);
            playing = false;
            playAgain = false;
            againToplay();
           }
+          
          }
+          
         }
          foundLetter = true;
         }
@@ -190,13 +196,13 @@ public class EvilHangman {
              playAgain = false;
              againToplay();
          }
-        
+         
       }
     public int decreaseGuess() {
         totalGuessRemaining--;
         if(totalGuessRemaining == 0){
          System.out.println("Game Over");
-         System.out.println("The answer is : "+ SecretWord);
+         //System.out.println("The answer is : "+ SecretWord);
         }
         return totalGuessRemaining;
         
@@ -209,11 +215,8 @@ public class EvilHangman {
         return incorrect;
     }
 
-    public boolean checkNumberBlankPosition() {
-        return foundLetter;
-    }
-
     public void updateScreen() {
+        String replace = Underscore.replaceAll(" ","");;
         System.out.print(Underscore);
         System.out.println();
         //System.out.println(SecretWord);//for show to know what word
@@ -244,9 +247,10 @@ public class EvilHangman {
         return totalGuessRemaining;
     }
 
-    public boolean Repeat() {
-        
-        return false;
+    public void Repeat() {
+        //while(totalGuessRemaining>=0){
+           //String ans = updateScreen().replaceAll(" ","");
+       // }
     }
 
     public void check() {
